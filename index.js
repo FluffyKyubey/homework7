@@ -104,25 +104,34 @@ ${license}
 - [Test Instructions](#test-instructions)
 - [Questions](#questions)
 - [License](#license)
+
 ## Description
 - ${data.description}
+
 ## Application Preview
 <p align="left">
 <img alt="README Gen Demo 1" src="${data.preview}">
 </p>
+
 ## Installation
 - ${data.install}
+
 ## Usage
 - ${data.usage}
+
 ## Contributing
 - ${data.contribute}
+
 ## Test Instructions
 - ${data.test}
+
 ## Questions
 Questions? Concerns?  Contact Me Below:
 - Github Username: ${data.github}
 - Github Link: https://github.com/${data.github} 
 - Email: ${data.email}
+
+
 ## License
 - Licensed under the: ${licenseTXT} 
 `
@@ -132,8 +141,8 @@ Questions? Concerns?  Contact Me Below:
 
 inquirer
 	.prompt(questions)
-	.then((answers) => {
-		createReadme(answers)
+	.then((data) => {
+		createReadme(data)
 		console.log(`It worked!`)
 	})
 	.catch((error) => {
