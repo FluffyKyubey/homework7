@@ -110,7 +110,7 @@ ${license}
 
 ## Application Preview
 <p align="left">
-<img alt="README Gen Demo 1" src="${data.preview}">
+<img alt="README Gen Demo 1" src="images/read me demo.gif">
 </p>
 
 ## Installation
